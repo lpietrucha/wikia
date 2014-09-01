@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="org.wikiaPage.LogInScenarioTest">
+        <methods>
+          <include name="test001_redirection"/>
+          <include name="test002_loginTableAppears"/>
+          <include name="beforeLoginScenario"/>
+          <include name="test003_loginAndVerify"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- org.wikiaPage.LogInScenarioTest -->
+      <class name="org.wikiaPage.AddVideoScenarioTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- org.wikiaPage.AddVideoScenarioTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9669" started-at="2014-09-01T09:42:51Z" finished-at="2014-09-01T09:43:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9669" started-at="2014-09-01T09:42:51Z" finished-at="2014-09-01T09:43:01Z">
+      <class name="org.wikiaPage.LogInScenario">
+        <test-method status="PASS" signature="beforeLoginScenario()[pri:0, instance:org.wikiaPage.LogInScenario@43fa0859]" name="beforeLoginScenario" is-config="true" duration-ms="8771" started-at="2014-09-01T11:42:43Z" finished-at="2014-09-01T11:42:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoginScenario -->
+        <test-method status="PASS" signature="test001_redirection()[pri:0, instance:org.wikiaPage.LogInScenario@43fa0859]" name="test001_redirection" duration-ms="696" started-at="2014-09-01T11:42:51Z" finished-at="2014-09-01T11:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001_redirection -->
+        <test-method status="PASS" signature="test002_loginTableAppears()[pri:0, instance:org.wikiaPage.LogInScenario@43fa0859]" name="test002_loginTableAppears" duration-ms="2289" started-at="2014-09-01T11:42:52Z" finished-at="2014-09-01T11:42:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test002_loginTableAppears -->
+        <test-method status="PASS" signature="test003_loginAndVerify()[pri:0, instance:org.wikiaPage.LogInScenario@43fa0859]" name="test003_loginAndVerify" duration-ms="6652" started-at="2014-09-01T11:42:54Z" finished-at="2014-09-01T11:43:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test003_loginAndVerify -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:org.wikiaPage.LogInScenario@43fa0859]" name="cleanup" is-config="true" duration-ms="1546" started-at="2014-09-01T11:43:01Z" finished-at="2014-09-01T11:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- org.wikiaPage.LogInScenario -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

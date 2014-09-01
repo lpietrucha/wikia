@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="45359" started-at="2014-09-01T13:06:20Z" finished-at="2014-09-01T13:07:06Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="45359" started-at="2014-09-01T13:06:20Z" finished-at="2014-09-01T13:07:06Z">
+      <class name="org.wikiaPage.LogInScenarioTest">
+        <test-method status="PASS" signature="test001_redirection()[pri:0, instance:org.wikiaPage.LogInScenarioTest@1abfa9d6]" name="test001_redirection" duration-ms="16" started-at="2014-09-01T15:06:57Z" finished-at="2014-09-01T15:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001_redirection -->
+        <test-method status="PASS" signature="test002_loginTableAppears()[pri:0, instance:org.wikiaPage.LogInScenarioTest@1abfa9d6]" name="test002_loginTableAppears" duration-ms="153" started-at="2014-09-01T15:06:57Z" finished-at="2014-09-01T15:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test002_loginTableAppears -->
+        <test-method status="PASS" signature="test003_loginAndVerify()[pri:0, instance:org.wikiaPage.LogInScenarioTest@1abfa9d6]" name="test003_loginAndVerify" duration-ms="8283" started-at="2014-09-01T15:06:57Z" finished-at="2014-09-01T15:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test003_loginAndVerify -->
+      </class> <!-- org.wikiaPage.LogInScenarioTest -->
+      <class name="org.wikiaPage.AddVideoScenarioTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:org.wikiaPage.AddVideoScenarioTest@60e950e9]" name="beforeSuite" is-config="true" duration-ms="19177" started-at="2014-09-01T15:05:50Z" finished-at="2014-09-01T15:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeLoginScenario()[pri:0, instance:org.wikiaPage.LogInScenarioTest@1abfa9d6]" name="beforeLoginScenario" is-config="true" duration-ms="10767" started-at="2014-09-01T15:06:10Z" finished-at="2014-09-01T15:06:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLoginScenario -->
+        <test-method status="PASS" signature="test001_redirection()[pri:0, instance:org.wikiaPage.AddVideoScenarioTest@60e950e9]" name="test001_redirection" duration-ms="20400" started-at="2014-09-01T15:06:20Z" finished-at="2014-09-01T15:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001_redirection -->
+        <test-method status="PASS" signature="test002_clickContribute_verifyDropdownShown()[pri:0, instance:org.wikiaPage.AddVideoScenarioTest@60e950e9]" name="test002_clickContribute_verifyDropdownShown" duration-ms="172" started-at="2014-09-01T15:06:41Z" finished-at="2014-09-01T15:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test002_clickContribute_verifyDropdownShown -->
+        <test-method status="PASS" signature="test003_clickAddVideo_verifyRedirection()[pri:0, instance:org.wikiaPage.AddVideoScenarioTest@60e950e9]" name="test003_clickAddVideo_verifyRedirection" duration-ms="3165" started-at="2014-09-01T15:06:41Z" finished-at="2014-09-01T15:06:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test003_clickAddVideo_verifyRedirection -->
+        <test-method status="PASS" signature="test004_addVideo_verifyFlashMessage()[pri:0, instance:org.wikiaPage.AddVideoScenarioTest@60e950e9]" name="test004_addVideo_verifyFlashMessage" duration-ms="5065" started-at="2014-09-01T15:06:44Z" finished-at="2014-09-01T15:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test004_addVideo_verifyFlashMessage -->
+        <test-method status="PASS" signature="test005_clickFlashMessageLink_verifyRedirectionAndFileName()[pri:0, instance:org.wikiaPage.AddVideoScenarioTest@60e950e9]" name="test005_clickFlashMessageLink_verifyRedirectionAndFileName" duration-ms="8088" started-at="2014-09-01T15:06:49Z" finished-at="2014-09-01T15:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test005_clickFlashMessageLink_verifyRedirectionAndFileName -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:org.wikiaPage.AddVideoScenarioTest@60e950e9]" name="afterSuite" is-config="true" duration-ms="400" started-at="2014-09-01T15:07:06Z" finished-at="2014-09-01T15:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:org.wikiaPage.LogInScenarioTest@1abfa9d6]" name="cleanup" is-config="true" duration-ms="306" started-at="2014-09-01T15:07:06Z" finished-at="2014-09-01T15:07:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- org.wikiaPage.AddVideoScenarioTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
